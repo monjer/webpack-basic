@@ -1,7 +1,7 @@
 {
   "name": "demo-12",
   "version": "1.0.0",
-  "description": "Webpack code split",
+  "description": "Webpack code Splitting",
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/.bin/webpack-dev-server --open"
