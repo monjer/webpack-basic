@@ -1,0 +1,14 @@
+{
+  "name": "demo-1",
+  "version": "1.0.0",
+  "description": "Introduction for webpack local install",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/webpack  ./index.js ./bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.5.6"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "demo-6",
+  "version": "1.0.0",
+  "description": "Webpack dev mode",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --config webpack.config.js",
+    "watch": "./node_modules/.bin/webpack --watch",
+    "start": "./node_modules/.bin/webpack-dev-server --open",
+    "server": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.16",
+    "express": "^4.15.4",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.5.6",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-dev-server": "^2.7.1"
+  }
+}

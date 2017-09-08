@@ -1,0 +1,16 @@
+{
+  "name": "demo-5",
+  "version": "1.0.0",
+  "description": "Webpack output management",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.16",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.5.6"
+  }
+}

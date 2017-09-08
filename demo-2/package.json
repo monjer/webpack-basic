@@ -1,0 +1,14 @@
+{
+  "name": "demo-2",
+  "version": "1.0.0",
+  "description": "webpack with config file webpack.config.js",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.5.6"
+  }
+}
