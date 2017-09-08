@@ -1,6 +1,6 @@
 # webpack-basic
 
-Some basic demo for webpack3.
+Some basic demo for Webpack3.
 
 All the demo is based on offical Webpack3 document introduction.
 
